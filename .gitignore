@@ -1,0 +1,66 @@
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.log
+
+# Node.js (for JavaScript/React projects)
+node_modules/
+
+# Environment variables
+.env
+
+# Package lock files (if you prefer not to commit them)
+package-lock.json
+yarn.lock
+
+# Log files
+*.log
+
+# Build directories and output (e.g., for compiled files, dist folders)
+dist/
+build/
+out/
+
+# Test and coverage directories
+coverage/
+*.lcov
+
+# Cobol-specific files (if using GnuCOBOL or other compilers)
+*.gnt
+*.gco
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Dependency directories (for frameworks like Laravel, Django, etc.)
+vendor/
+bower_components/
+
+# JetBrains IDEs (e.g., WebStorm, PhpStorm, etc.)
+.idea/
+
+# Windows Installer files
+Thumbs.db
+
+# Python-specific files (if using Python in a web project)
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS-specific files
+.DS_Store
+
+# Visual Studio Code settings (if using VS Code)
+.vscode/
+
+# NPM debug log
+npm-debug.log
