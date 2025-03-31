@@ -1,0 +1,18 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. INSERT-NAME.
+
+       AUTHOR. "ALE".
+
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 WS-NAME PIC X(20).
+
+       PROCEDURE DIVISION.
+       1000-START-PARA.
+           DISPLAY "Enter the name: " WITH NO ADVANCING.
+           ACCEPT WS-NAME.
+           DISPLAY "Welcome " WS-NAME.
+           STOP RUN.
